@@ -11,6 +11,11 @@
     font-family: 'Bebas Neue', cursive;
   }
 
+
+  /*
+    header section style 
+   */
+
   header {
     background: #FFFBF0;
   }
@@ -28,14 +33,15 @@
     font-size: large;
   }
 
-  .text-uppercase {
+  .hero-heading {
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
     font-size: 80px;
     line-height: 96px;
     color: #FABE4C;
+    text-transform: uppercase;
   }
-  .text-uppercase > span {
+  .hero-heading > span {
     color: #363958;
   }
 
@@ -46,3 +52,83 @@
     line-height: 24px;
     text-transform: uppercase;
   }
+
+
+  /*
+    main section style 
+   */
+
+   .collection-heading-one {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #363958;
+   }
+    .img-div {
+    width: 330px;
+    height: 330px;
+    background: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .img-div >img {
+    width: 90%;
+    height: 95%;
+   }
+   .card {
+    width: 370px;
+    height: 590px;
+    padding: 14.5px;
+}
+  .card-title > h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+  }
+
+  .price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FABE4C;
+  }
+
+  /*
+    shopping boxses 
+   */
+   .boxses {
+      width: 350px;
+      height: 135px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+   }
+
+   .shopping-img {
+      width: 78px;
+      height: 82px;
+   }
+   .cap-heading {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      color: #363958;
+   }
+   .caption > p {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #3E3E3E;
+   }
