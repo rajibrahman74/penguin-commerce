@@ -1,0 +1,48 @@
+/* 
+    font family import
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Merriweather&family=Noto+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&display=swap');
+
+
+ /* 
+    common style
+  */
+  body {
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  header {
+    background: #FFFBF0;
+  }
+
+  nav > .container > a > img {
+    width: 290px;
+    height: 39.27px;
+  }
+  .container > img {
+    width: 150px;
+    height: 38px;
+  }
+  .nav-item {
+    margin-right: 20px;
+    font-size: large;
+  }
+
+  .text-uppercase {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    color: #FABE4C;
+  }
+  .text-uppercase > span {
+    color: #363958;
+  }
+
+  .btn-special {
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
